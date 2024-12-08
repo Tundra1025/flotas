@@ -9,7 +9,7 @@ public class mapa {
         void real();
     }
     
-    class timpr implements mapa {
+    class timpr implements mapaa {
 
 
 
@@ -21,13 +21,13 @@ public class mapa {
    
     }
     
-    class mapa implements Eater, Flyer {
+    class mapaa implements mapa , timpr {
         @Override
-        public void eat() {
+        public void cambia() {
          
         }
     
       
 }
 
-//este es la "i" 
+//este es la "i" porque cumple con el requisito que las dos cosas puedan cumplir con lo que necesitan sin afectar a la otra
